@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@font-face{
+@font-face {
     font-family: "Recursive";
     src: url(./Fonts/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
 }
@@ -22,18 +22,19 @@ header img {
     height: 120px;
 }
 
-.bannerinicial{
+.bannerinicial {
     background-image: url(./imgs/Captura\ de\ tela\ 2025-05-16\ 150454.png);
     height: 100vh;
 }
+
 .banner img {
-  width: 100%;
-  height: auto;
-  display: block;
-  
+    width: 100%;
+    height: auto;
+    display: block;
+
 }
 
-.container-grid{
+.container-grid {
     margin: 1400px;
     width: 80vw;
     margin: 0 auto;
@@ -41,7 +42,7 @@ header img {
 }
 
 
-header .container-grid{
+header .container-grid {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,19 +50,20 @@ header .container-grid{
 }
 
 
-.menu{
-    max-width: 700px;
-    width: 70%;
-    
+.menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 
 
 
-.menu a{
+.menu a {
     font-size: 20px;
     color: white;
     font-family: "Recursive" Sans-linear-Bold;
@@ -69,66 +71,67 @@ header .container-grid{
 
 
 
-.container-grid{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 84vh; 
-  
+.container-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84vh;
+
 }
-    
-.categorias-section{
-      font-family: Arial, sans-serif;
-      background-color: #f8f6ef;
-      margin: 0;
-      padding: 0;
-    }
 
-    .categorias-section {
-      text-align: center;
-      padding: 40px 20px;
-    }
+.categorias-section {
+    font-family: Arial, sans-serif;
+    background-color: #f8f6ef;
+    margin: 0;
+    padding: 0;
+}
 
-    .categorias-section h2 {
-      color: #4b5336;
-      font-size: 20px;
-      letter-spacing: 1px;
-      margin-bottom: 30px;
-    }
+.categorias-section {
+    text-align: center;
+    padding: 40px 20px;
+}
 
-    .categorias-container {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
+.categorias-section h2 {
+    color: #4b5336;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
 
-    .categoria-item {
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      width: 160px;
-      overflow: hidden;
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
+.categorias-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
-    .categoria-item img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
+.categoria-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 160px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
 
-    .categoria-item p {
-      margin: 10px 0;
-      font-size: 14px;
-      color: #333;
-    }
+.categoria-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
-    /* ---header--- */
+.categoria-item p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* ---header--- */
 
 .banner {
-    background-image: url(./imgs/WhatsApp\ Image\ 2025-06-13\ at\ 11.09.18.jpeg);/* Deixe so uma imagem,não repita */
+    background-image: url(./imgs/WhatsApp\ Image\ 2025-06-13\ at\ 11.09.18.jpeg);
+
     height: 120vh;
     background-repeat: no-repeat;
     background-position: 0 -10px;
@@ -206,7 +209,7 @@ header .container-grid {
 
 
 
-    /* ------------sobre------------ */
+/* ------------sobre------------ */
 #sobre {
     display: flex;
     align-items: center;
@@ -233,25 +236,29 @@ header .container-grid {
     margin-top: 30px;
 }
 
-.titulo{
+.titulo {
     display: flex;
     font-family: "Recursive", sans-linear-bold;
     font-weight: 600;
     font-size: 35px;
     align-items: center;
 }
+
 .titulo h2 {
-  color: #FFFFFF; /* Cor do texto 'Sobre' */
-  background-color: #74695E; /* Fundo arredondado */
-  border-radius: 20px;
-  padding: 10px 18px;
-  margin-bottom: 0;
-  align-items: center;
+    color: #FFFFFF;
+
+    background-color: #74695E;
+
+    border-radius: 20px;
+    padding: 10px 18px;
+    margin-bottom: 0;
+    align-items: center;
 }
 
 .titulo span {
-  color: #321B03; /* Cor de 'a nossa agência' */
-  border-bottom: 3px solid #656565;
+    color: #321B03;
+
+    border-bottom: 3px solid #656565;
 }
 
 
@@ -272,15 +279,15 @@ header .container-grid {
 }
 
 /* ----------------Card e Carrosel----------------------- */
-.cass{
+.cass {
     width: 100px;
     height: 100px;
 }
 
-.cass0{
+.cass0 {
     width: 89px;
     height: 100px;
-    
+
 }
 
 
@@ -290,23 +297,318 @@ header .container-grid {
     justify-content: center;
 }
 
-.linha-marom{
-    position: absolute;
-    z-index: -1;
-    top: calc(50% - 125px);
+#servicos .card {
+    width: 300px;
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+    background-color: #f3f2f2;
+    box-shadow: 0 4px 8px 0 rgba(#321B03);
+    text-align: center;
 
-    height: 250px;
-    width: 100vw;
-    background: linear-gradient(0deg, rgba(36, 0, 105, 1)0%, rgba(71, 0, 207, 1)100%), url(./imgs/Rectangle\ 75.svg);,;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
 
-    .linha-maromS{
-      width: 100%;           /* Ocupa toda a largura disponível */
-      height: 4px;           /* Espessura da linha */
-      background-color: #8B4513; /* Marrom escuro (SaddleBrown) */
-      margin: 30px 0;        /* Espaçamento acima e abaixo */
-      border: none;          /* Remove borda padrão do <hr> */
-    }
-  </style>
-    
-    
 }
+
+#servicos .card h3 {
+    font-size: 24px;
+    margin: 5px 0 30px;
+    color: var(#4D2A06);
+    font-family: "Recursive", sans-linear-bold;
+    text-align: center;
+
+
+}
+
+
+#servicos .card p {
+    font-family: "Recursive", sans-linear;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#servicos .card svg {
+    color: var(--roxo-pixelv);
+    height: 75px;
+}
+
+#servicos .card:hover {
+    border: solid 3px var(--verde-pixelV);
+}
+
+#servicos .card:hover h3 {
+    color: var(--verde-pixelV);
+}
+
+#servicos .card:hover svg {
+    fill: var(#4D2A06);
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+
+
+
+.destaque {
+    background-color: #321B03;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+
+.linha-marrom {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: #957E65;
+    z-index: 0;
+    transform: translateY(-50%);
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+.card {
+    background: #f4f3f3;
+    padding: 30px;
+    border-radius: 30px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+
+}
+
+body {
+    background-color: #dedede;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.topo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.box {
+    max-width: 300px;
+    text-align: left;
+}
+
+.box h2 {
+    color: #4D2A06;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-weight: bold;
+}
+
+
+
+
+/* Contato */
+.contato {
+    padding: 2rem;
+    background-color: #cccccc;
+}
+
+.contato h2 {
+    margin-bottom: 1rem;
+    color: #4b5336;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+form input,
+form textarea {
+    padding: 0.6rem;
+    border: 1px solid #888;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+form button {
+    background-color: #321B03;
+    color: white;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #957E65;
+    color: #4b5336;
+}
+
+.cadastro {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.cadastro h2 {
+    font-size: 2rem;
+    color: #321B03;
+}
+
+.envelope-icon {
+    width: 32px;
+    height: 32px;
+    margin: 12px 0;
+    fill: #000;
+    transition: fill .3s;
+}
+
+.envelope-icon:hover {
+    fill: #006033;
+}
+
+.formulario {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.formulario input {
+    width: 320px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.formulario button {
+    padding: 12px 24px;
+    background-color: #321B03;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.formulario button:hover {
+    background-color: #4D2A06;
+}
+
+.rodape {
+    margin-top: 60px;
+    background-color: #7c6650;
+    border: 2px solid #000;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.icon svg {
+    width: 28px;
+    height: 28px;
+    fill: #000;
+}
+
+/* barra de pesquisa */
+.search-container {
+    position: relative;
+    width: 320px;
+}
+
+.search-container input[type="search"] {
+    width: 100%;
+    padding: 12px 48px 12px 16px;
+    border: 2px solid #957E65;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+.search-container input[type="search"]:focus {
+    outline: none;
+    border-color: #4b5336;
+    box-shadow: 0 0 8px #000000;
+}
+
+.search-container button {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #321B03;
+}
+
+.search-container button svg {
+    width: 20px;
+    height: 20px;
+    stroke: white;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+
+}
+
+
