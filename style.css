@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "Recursive";
+    src: url(./Fonts/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
+}
+
+header {
+    background-color: #73614E;
+    display: flex;
+    height: 160px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header img {
+    height: 120px;
+}
+
+.bannerinicial{
+    background-image: url(./imgs/Captura\ de\ tela\ 2025-05-16\ 150454.png);
+    height: 100vh;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  
+}
+
+.container-grid{
+    margin: 1400px;
+    width: 80vw;
+    margin: 0 auto;
+
+}
+
+
+header .container-grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.menu{
+    max-width: 700px;
+    width: 70%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.menu a{
+    font-size: 20px;
+    color: white;
+    font-family: "Recursive" Sans-linear-Bold;
+}
+
+
+
+.container-grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 84vh; 
+  
+}
+    
+.categorias-section{
+      font-family: Arial, sans-serif;
+      background-color: #f8f6ef;
+      margin: 0;
+      padding: 0;
+    }
+
+    .categorias-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .categorias-section h2 {
+      color: #4b5336;
+      font-size: 20px;
+      letter-spacing: 1px;
+      margin-bottom: 30px;
+    }
+
+    .categorias-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .categoria-item {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 160px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .categoria-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .categoria-item p {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #333;
+    }
+
+    /* ---header--- */
+
+.banner {
+    background-image: url(./imgs/WhatsApp\ Image\ 2025-06-13\ at\ 11.09.18.jpeg);/* Deixe so uma imagem,não repita */
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    height: 165px;
+}
+
+header img {
+    width: 234px;
+}
+
+header .container-grid {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu {
+    max-width: 700px;
+    width: 70%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 20px;
+    color: var(#ffffff);
+    font-family: "Recursive", Sans-linear-Bold;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+    transition: text-decoration 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: var(--verde-pixelV);
+}
+
+.conteudo-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteudo-banner img {
+    max-width: 380px;
+    width: 50%;
+}
+
+.conteudo-banner p {
+    font-size: 26px;
+    font-family: "Recursive", Sans-linear-Bold;
+    color: var(--branco);
+    width: 350px;
+    margin-bottom: 100px;
+}
+
+.conteudo-banner ul {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Recursive", Sans-linear-Bold;
+    color: var(#321B03);
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+    /* ------------sobre------------ */
+#sobre {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#sobre img {
+    max-width: 460px;
+    width: 40%;
+    border-radius: 40px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+#sobre h2 {
+    margin-right: 5px;
+}
+
+#sobre p {
+    font-family: "Recursive", Sans-linear-Bold;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.titulo{
+    display: flex;
+    font-family: "Recursive", sans-linear-bold;
+    font-weight: 600;
+    font-size: 35px;
+    align-items: center;
+}
+.titulo h2 {
+  color: #FFFFFF; /* Cor do texto 'Sobre' */
+  background-color: #74695E; /* Fundo arredondado */
+  border-radius: 20px;
+  padding: 10px 18px;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.titulo span {
+  color: #321B03; /* Cor de 'a nossa agência' */
+  border-bottom: 3px solid #656565;
+}
+
+
+
+/* ----------------PARALLAX------------------- */
+
+
+#parallax {
+    height: 250px;
+
+    /* background-image: url(./Imgs/parallax.svg); */
+
+    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./imgs/pexels-cottonbro-6068971.jpg);
+    background-attachment: fixed;
+    background-size: 30%;
+    margin-bottom: 120px;
+
+}
+
+/* ----------------Card e Carrosel----------------------- */
+.cass{
+    width: 100px;
+    height: 100px;
+}
+
+.cass0{
+    width: 89px;
+    height: 100px;
+    
+}
+
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.linha-marom{
+    position: absolute;
+    z-index: -1;
+    top: calc(50% - 125px);
+
+    height: 250px;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(36, 0, 105, 1)0%, rgba(71, 0, 207, 1)100%), url(./imgs/Rectangle\ 75.svg);,;
+
+    .linha-maromS{
+      width: 100%;           /* Ocupa toda a largura disponível */
+      height: 4px;           /* Espessura da linha */
+      background-color: #8B4513; /* Marrom escuro (SaddleBrown) */
+      margin: 30px 0;        /* Espaçamento acima e abaixo */
+      border: none;          /* Remove borda padrão do <hr> */
+    }
+  </style>
+    
+    
+}
